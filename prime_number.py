@@ -1,3 +1,5 @@
+# Output Screenshot:
+# ![Prime Number Output](prime_number_output.png)
 while num <= 100:
     is_prime = True  # Assume number is prime
 
