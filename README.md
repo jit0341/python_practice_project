@@ -33,3 +33,6 @@ To run any script from this repository:
 ## License
 
 This project is licensed under the MIT License.
+## Sample Output Screenshot
+
+![Output Screenshot](screenshots/Screenshot_2025-05-25-23-04-52-05_40deb401b9ffe8e1df2f1cc5ba480b12.jpg)
