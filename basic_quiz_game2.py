@@ -1,3 +1,6 @@
+## An enhanced version or a different
+# iteration of the basic quiz game.
+
 def ask_question(question, correct_answers):
     answer = input(question + " ")
     if answer.lower() in correct_answers:
