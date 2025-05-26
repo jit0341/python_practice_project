@@ -1,3 +1,7 @@
+## A script for basic username 
+# and password handling or 
+# validation.
+
 correct_username = "admin"
 correct_password = 1234
 username = str(input(" Enter username:"))
