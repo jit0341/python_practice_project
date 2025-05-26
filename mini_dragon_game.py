@@ -1,3 +1,7 @@
+## A small text-based or console
+# game, possibly involving a dragon
+# or similar theme.
+
 import random
 
 # Give your dragon a name
