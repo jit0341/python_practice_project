@@ -119,9 +119,12 @@ Author
 Jitendra Bharti 
 GitHub: jit0341
 
----
+## Future Enhancements
 
 Let me know if you'd like to add:
-- A "To Do" section for future ideas or improvements.
-- Links to specific scripts for easy GitHub navigation.
-- Badges (e.g., Python version, license) for visual appeal.
+
+- A **To Do** section for future ideas or improvements  
+- Direct links to specific scripts for easy GitHub navigation  
+- Visual **badges** (e.g., Python version, license) for appeal
+
+---
