@@ -1,3 +1,6 @@
+## A script to identify or generate
+# prime numbers.
+
 # Output Screenshot:
 # ![Prime Number Output](prime_number_output.png)
 while num <= 100:
