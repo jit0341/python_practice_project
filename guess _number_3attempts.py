@@ -1,3 +1,7 @@
+## A "guess the number" game, 
+# possibly with three attempts or
+# a specific variation.
+
 secret_number = 7
 guess = 0
 attempts = 0
