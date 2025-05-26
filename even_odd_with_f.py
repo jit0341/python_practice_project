@@ -1,3 +1,7 @@
+## Determines if a number is 
+# even or odd, possibly utilizing
+# f-strings for output.
+
 i = 1
 while i <= 10:
     if i % 2 == 0:
