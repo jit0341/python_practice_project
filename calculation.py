@@ -1,3 +1,6 @@
+## Contains basic arithmetic
+# calculations or a calculator program.
+
 num1= float (input(" Enter First Number: "))
 operator = input("Enter Operator(+,-,*,/):")
 num2 = float(input("Enter Second Number:"))
