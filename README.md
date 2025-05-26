@@ -1,5 +1,8 @@
 # Python Practice Project
 
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+
 This repository is a collection of Python practice programs created during my learning and exploration of Python programming. It includes basic scripts that demonstrate fundamental concepts and small applications.
 
 ---
@@ -111,7 +114,15 @@ License
 
 This project is licensed under the MIT License.
 
+### ✅ To Do
 
+- [ ] Add user input validation to all interactive scripts  
+- [ ] Include comments in all scripts for better readability  
+- [ ] Refactor repeated code using functions  
+- [ ] Add a script that uses lists and loops together  
+- [ ] Explore file handling and save outputs  
+- [ ] Add more screenshots for each program  
+- [ ] Link scripts directly from the README
 ---
 
 Author
@@ -128,3 +139,6 @@ Let me know if you'd like to add:
 - Visual **badges** (e.g., Python version, license) for appeal
 
 ---
+git add README.md
+git commit -m "Updated README with badges, to-do list, and structure"
+git push
