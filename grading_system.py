@@ -1,3 +1,6 @@
+## Implements a simple grading system
+# to assign grades based on scores.
+
 marks = int(input("Enter your marks: "))
 
 if marks >= 90:
