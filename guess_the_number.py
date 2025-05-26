@@ -1,3 +1,6 @@
+## Another version of the
+# "guess the number" game.
+
 secret_number = 7
 guess = 0
 
