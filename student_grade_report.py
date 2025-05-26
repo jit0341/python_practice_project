@@ -1,3 +1,6 @@
+## Generates a report for 
+# student grades.
+
 name = input("Enter student name: ")
 math = int(input("Enter Math marks: "))
 english = int(input("Enter English marks: "))
