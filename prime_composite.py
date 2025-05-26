@@ -1,3 +1,6 @@
+## Checks if a number is prime
+# or composite.
+
 (f"{num} is neither prime nor composite")
     else:
         is_prime = True
