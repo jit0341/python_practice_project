@@ -1,3 +1,5 @@
+## A general Python-based quiz game.
+
 score = 0
 
 print("Welcome to the Python Quiz!")
