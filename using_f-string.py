@@ -1,3 +1,7 @@
+## Demonstrates the usage of 
+# f-strings for formatted string 
+# literals in Python.
+
 pi = 3.1415926535
 print(f"Pi rounded to 3 decimal places: {pi:.3f}")
 # Print only up to 3 decimal places
