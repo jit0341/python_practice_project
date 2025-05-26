@@ -1,5 +1,7 @@
-score = 0
+## A simple interactive quiz game 
+# implemented in Python.
 
+score = 0
 print("Welcome to the Python Quiz!")
 print("-----------------------------")
 
