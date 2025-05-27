@@ -2,6 +2,7 @@
 # a person's age into different age
 # groups (e.g., child, teenager,
 # adult).age = int(input("Enter your age: "))
+
 if age < 0 or age > 120:
     print("Invalid age")
 elif age <= 12:
