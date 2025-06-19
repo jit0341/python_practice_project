@@ -44,3 +44,13 @@ def celsius_to_fahrenheit(celsius):
 #call function 
 temp_f2 = celsius_to_fahrenheit(50) 
 print("without return: ", type(temp_f2))
+
+
+# pass statement 
+def kuchbhi(): 
+    pass 
+
+def top_right_CTA_button_type():    # code to be updated later
+    pass 
+
+print("Hello!")
