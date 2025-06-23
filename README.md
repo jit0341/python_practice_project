@@ -1,4 +1,4 @@
-
+"""
 python_practice_project/
 ├── src/
 │   ├── dev_greeting.py
@@ -6,7 +6,7 @@ python_practice_project/
 ├── README.md
 ├── .gitignore
 ├── requirements.txt
-
+"""
 # Python Practice Project
 
 ## License
