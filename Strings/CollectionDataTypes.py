@@ -1,7 +1,25 @@
-Python Collections (Arrays)
-There are four collection data types in the Python programming language:
+# Python Collections (Arrays)
 
-List is a collection which is ordered and changeable. Allows duplicate members.
-Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
-Set is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
-Dictionary is a collection which is ordered** and changeable. No duplicate members.
+# There are four collection data types in the Python programming language:
+
+# 1. List:
+#    - Ordered
+#    - Changeable (Mutable)
+#    - Allows duplicate members
+
+# 2. Tuple:
+#    - Ordered
+#    - Unchangeable (Immutable)
+#    - Allows duplicate members
+
+# 3. Set:
+#    - Unordered
+#    - Unchangeable* (Items cannot be changed, but you can add/remove)
+#    - Unindexed
+#    - Does NOT allow duplicates
+
+# 4. Dictionary:
+#    - Ordered (since Python 3.7)
+#    - Changeable
+#    - Indexed by keys
+#    - Does NOT allow duplicate keys
