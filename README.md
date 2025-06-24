@@ -1,7 +1,6 @@
 ```
 # My Python Practice Project
      This repository contains various Python practuce scripts and projects , organised for easy learning and reference.
-# 
 ├── .github
 │   ├── workflows
 │   │   ├── python-app.yml
@@ -93,7 +92,6 @@
 │   │   ├── welcome_function.py
 ├── vowels _consonants_specialcharacter.py
 ```
-
 
 ## Table of Contents
 - [Getting Started](#getting-started)
