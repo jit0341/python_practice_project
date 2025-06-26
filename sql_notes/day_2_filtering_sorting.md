@@ -23,6 +23,7 @@ Amazing! Here's your Day 2: Filtering + Sorting learning summary — clean, stru
 SELECT * 
 FROM Customers
 WHERE Country = 'Germany' AND CustomerName LIKE 'B%';
+![Query: Country = Germany](screenshots/country_germany.png)
 
 ➤ OR – At least one condition must be true
 
