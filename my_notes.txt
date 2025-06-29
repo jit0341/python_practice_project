@@ -1,6 +1,2 @@
 This is my first file in Python!
 Learning file handling is fun.
-This is a new line appended to the file.
-Another line added!
-This is a new line appended to the file.
-Another line added!
