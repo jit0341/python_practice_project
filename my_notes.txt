@@ -1,0 +1,2 @@
+with open("/storage/emulated/0/python_practice_project/my_notes.txt", "w") as file:
+    file.write("This is saved in my main folder.")
