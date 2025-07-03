@@ -94,64 +94,64 @@ You can download the latest version from the official Python website: [python.or
 
 This table provides a detailed overview of the scripts organized by category.
 
-| Category                | File Name                                      | Description                                                 |
-| :---------------------- | :--------------------------------------------- | :---------------------------------------------------------- |
-| **Math & Numbers** | `area_of_rectangle.py`                         | Calculates the area of a rectangle                          |
-|                         | `calculation.py`                               | Performs basic arithmetic operations                        |
-|                         | `counting_1to10.py`                            | Illustrates counting numbers from 1 to 10                   |
-|                         | `divisibility_check.py`                        | Checks if a number is divisible by another                  |
-|                         | `even_odd_using_list.py`                       | Checks for even/odd numbers within a list                   |
-|                         | `even_odd_with_f.py`                           | Demonstrates even/odd check using a function                |
-|                         | `pos_neg_zero.py`                              | Classifies numbers as positive, negative, or zero           |
-|                         | `prime_composite.py`                           | Checks if a number is prime or composite                    |
-|                         | `prime_number.py`                              | Determines if a number is prime                             |
-|                         | `square_1to30.py`                              | Generates squares for numbers from 1 to 30                  |
-|                         | `table_of_2.py`                                | Displays the multiplication table of 2                      |
-| **Games & Quizzes** | `basic_quiz_game.py`                           | A simple interactive quiz game                              |
-|                         | `basic_quiz_game2.py`                          | An enhanced version of the basic quiz game                  |
-|                         | `guess_number_3attempts.py`                    | Number guessing game with 3 attempts limit                  |
-|                         | `guess_the_number.py`                          | Classic number guessing game                                |
-|                         | `if_else_quiz.py`                              | A quiz based on `if-else` logic                             |
-|                         | `mini_dragon_game.py`                          | A text-based fantasy adventure game                         |
-|                         | `python_quiz_game.py`                          | A general Python knowledge quiz game                        |
-| **User Interaction & Logic** | `admissionEligibility.py`                 | Checks eligibility for admission based on criteria          |
-|                         | `age_group.py`                                 | Classifies individuals into age groups                      |
-|                         | `data_type.py`                                 | Illustrates various Python data types                       |
-|                         | `grading_system.py`                            | Assigns grades based on scores                              |
-|                         | `input_function.py`                            | Basic examples of `input()` function usage                  |
-|                         | `input_function2.py`                           | Further examples of `input()` function                      |
-|                         | `leapYear.py`                                  | Determines if a given year is a leap year                   |
-|                         | `name_age.py`                                  | Simple script to input and display name and age             |
-|                         | `repeat.py`                                    | Demonstrates basic repetition                               |
-|                         | `student_grade_report.py`                      | Summarizes student grades and performance                   |
-|                         | `usernamePassword.py`                          | Simple login system (also `username_password.py` in Strings) |
-|                         | `using_f-string.py`                            | Demonstrates the use of f-strings for string formatting     |
-| **List Operations** | `checking_for_existence_in_list.py`            | Checks for element existence within a list                  |
-|                         | `complete_list.py`                             | Comprehensive examples of various list operations           |
-|                         | `copying_list.py`                              | Demonstrates different methods to copy lists                |
-|                         | `counting_elements.py`                         | Counts occurrences of elements in a list/string             |
-|                         | `finding_element_index.py`                     | Finds the index of a specific element                       |
-|                         | `iterating_list.py`                            | Shows how to loop through list elements                     |
-|                         | `list_comprehension.py`                        | Examples of list comprehension for concise code             |
-|                         | `list_exercises.py`                            | Practice exercises for list manipulation                    |
-|                         | `lists.py`                                     | Basic introduction to lists                                 |
-|                         | `modifying_list.py`                            | Examples of how to modify list elements                     |
-|                         | `slicing_in_list.py`                           | Demonstrates list slicing                                   |
-| **String & Vowel Programs** | `count_vowels.py`                         | Counts the number of vowels in a string                     |
-|                         | `count_vowels_consonants.py`                   | Counts both vowels and consonants in a string               |
-|                         | `stringMethods.py`                             | Examples of common string methods                           |
-|                         | `string_handling.py`                           | General string manipulation examples                        |
-|                         | `vowels_consonants_specialcharacter.py`        | Counts vowels, consonants, and special characters           |
-| **Functions** | `function_start.py`                            | Introduction to defining and calling functions              |
-|                         | `function_with_arguments.py`                   | Functions demonstrating parameter passing                   |
-|                         | `functions_easy.py`                            | Simple function examples                                    |
-|                         | `functions_easy_practice.py`                   | More practice with basic functions                          |
-|                         | `explaining_return.py`                         | Explains the `return` statement in functions                |
-|                         | `welcome_function.py`                          | A basic welcome message function                            |
-| **Other** | `arguments_and_comments.py`                    | Demonstrates command-line arguments and code comments       |
-|                         | `dev_greeting.py`                              | A simple developer greeting script                          |
-|                         | `hello_github.py`                              | A basic "Hello GitHub" script                               |
-|                         | `lotsofram.py`                                 | No description yet                                          |
+| Category                      | File Name                                      | Description                                                                 |
+| :---------------------------- | :--------------------------------------------- | :-------------------------------------------------------------------------- |
+| **Math & Numbers** | `area_of_rectangle.py`                         | Calculates the area of a rectangle                                          |
+|                               | `calculation.py`                               | Performs basic arithmetic operations                                        |
+|                               | `counting_1to10.py`                            | Illustrates counting numbers from 1 to 10                                   |
+|                               | `divisibility_check.py`                        | Checks if a number is divisible by another                                  |
+|                               | `even_odd_using_list.py`                       | Checks for even/odd numbers within a list                                   |
+|                               | `even_odd_with_f.py`                           | Demonstrates even/odd check using a function                                |
+|                               | `pos_neg_zero.py`                              | Classifies numbers as positive, negative, or zero                           |
+|                               | `prime_composite.py`                           | Checks if a number is prime or composite                                    |
+|                               | `prime_number.py`                              | Determines if a number is prime                                             |
+|                               | `square_1to30.py`                              | Generates squares for numbers from 1 to 30                                  |
+|                               | `table_of_2.py`                                | Displays the multiplication table of 2                                      |
+| **Games & Quizzes** | `basic_quiz_game.py`                           | A simple interactive quiz game                                              |
+|                               | `basic_quiz_game2.py`                          | An enhanced version of the basic quiz game                                  |
+|                               | `guess_number_3attempts.py`                    | Number guessing game with 3 attempts limit                                  |
+|                               | `guess_the_number.py`                          | Classic number guessing game                                                |
+|                               | `if_else_quiz.py`                              | A quiz based on `if-else` logic                                             |
+|                               | `mini_dragon_game.py`                          | A text-based fantasy adventure game                                         |
+|                               | `python_quiz_game.py`                          | A general Python knowledge quiz game                                        |
+| **User Interaction & Logic** | `admissionEligibility.py`                      | Checks eligibility for admission based on criteria                          |
+|                               | `age_group.py`                                 | Classifies individuals into age groups                                      |
+|                               | `data_type.py`                                 | Illustrates various Python data types                                       |
+|                               | `grading_system.py`                            | Assigns grades based on scores                                              |
+|                               | `input_function.py`                            | Basic examples of `input()` function usage                                  |
+|                               | `input_function2.py`                           | Further examples of `input()` function                                      |
+|                               | `leapYear.py`                                  | Determines if a given year is a leap year                                   |
+|                               | `name_age.py`                                  | Simple script to input and display name and age                             |
+|                               | `repeat.py`                                    | Demonstrates basic repetition                                               |
+|                               | `student_grade_report.py`                      | Summarizes student grades and performance                                   |
+|                               | `usernamePassword.py`                          | Simple login system (also `username_password.py` in Strings)                |
+|                               | `using_f-string.py`                            | Demonstrates the use of f-strings for string formatting                     |
+| **List Operations** | `checking_for_existence_in_list.py`            | Checks for element existence within a list                                  |
+|                               | `complete_list.py`                             | Comprehensive examples of various list operations                           |
+|                               | `copying_list.py`                              | Demonstrates different methods to copy lists                                |
+|                               | `counting_elements.py`                         | Counts occurrences of elements in a list/string                             |
+|                               | `finding_element_index.py`                     | Finds the index of a specific element                                       |
+|                               | `iterating_list.py`                            | Shows how to loop through list elements                                     |
+|                               | `list_comprehension.py`                        | Examples of list comprehension for concise code                             |
+|                               | `list_exercises.py`                            | Practice exercises for list manipulation                                    |
+|                               | `lists.py`                                     | Basic introduction to lists                                                 |
+|                               | `modifying_list.py`                            | Examples of how to modify list elements                                     |
+|                               | `slicing_in_list.py`                           | Demonstrates list slicing                                                   |
+| **String & Vowel Programs** | `count_vowels.py`                              | Counts the number of vowels in a string                                     |
+|                               | `count_vowels_consonants.py`                   | Counts both vowels and consonants in a string                               |
+|                               | `stringMethods.py`                             | Examples of common string methods                                           |
+|                               | `string_handling.py`                           | General string manipulation examples                                        |
+|                               | `vowels_consonants_specialcharacter.py`        | Counts vowels, consonants, and special characters                           |
+| **Functions** | `function_start.py`                            | Introduction to defining and calling functions                              |
+|                               | `function_with_arguments.py`                   | Functions demonstrating parameter passing                                   |
+|                               | `functions_easy.py`                            | Simple function examples                                                    |
+|                               | `functions_easy_practice.py`                   | More practice with basic functions                                          |
+|                               | `explaining_return.py`                         | Explains the `return` statement in functions                                |
+|                               | `welcome_function.py`                          | A basic welcome message function                                            |
+| **Other** | `arguments_and_comments.py`                    | Demonstrates command-line arguments and code comments                       |
+|                               | `dev_greeting.py`                              | A simple developer greeting script                                          |
+|                               | `hello_github.py`                              | A basic "Hello GitHub" script                                               |
+|                               | `lotsofram.py`                                 | No description yet                                                          |
 
 ---
 
@@ -196,5 +196,4 @@ This project is licensed under the **MIT License**. See the `LICENSE` file for d
 
 **Jitendra Bharti**
 [![GitHub Profile](https://img.shields.io/badge/GitHub-jit0341-blue?style=flat&logo=github)](https://github.com/jit0341)
-
 
