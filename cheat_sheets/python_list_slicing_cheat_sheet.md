@@ -49,4 +49,4 @@ To include an image cheat sheet in Markdown:
 ![List Slicing Cheat Sheet](path_to_image.png)
 ```
 
-![List Slicing Cheat Sheet](your_image_python_list_slicing_cheat_sheet.png>
+![List Slicing Cheat Sheet](python_list_slicing_cheat_sheet.png)
