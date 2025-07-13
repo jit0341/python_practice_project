@@ -8,3 +8,9 @@ with open("write_test1.txt", "w") as f:
     
 with open("write_test_output.txt", "w") as f:
     f.write("Saved safely inside src/file_handling!\n")
+    
+    
+    from project_utils.save_to_txt import save_to_txt
+
+log = "This is a test write using the utility.\n"
+save_to_txt("test_write.txt", log)
