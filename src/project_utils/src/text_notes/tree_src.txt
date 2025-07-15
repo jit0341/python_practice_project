@@ -1,0 +1,121 @@
+├── .github
+│   ├── workflows
+│   │   ├── python-app.yml
+├── .gitignore.py
+├── Collections_Readme.md
+├── LICENSE
+├── README.md
+├── bash_notes
+│   ├── screenshots
+│   │   ├── upload_screenshot.md
+│   ├── scripts
+│   │   ├── upload_screenshot.sh
+├── checking _for_existence_in_list.py
+├── day2_filtering_sorting.md
+├── even_odd_with_f.py
+├── generate_folder_tree.sh
+├── guess _number_3attempts.py
+├── myscript.sh
+├── practice1.sh
+├── python _quiz_game.py
+├── screenshots
+├── sql_notes
+│   ├── README.md
+│   ├── day2_filtering_sorting.md
+│   ├── screenshots
+│   │   ├── Order_by_asc_desc.jpg
+│   │   ├── Order_by_desc.jpg
+│   │   ├── Show_top_5.jpg
+│   │   ├── country_germany.png
+│   │   ├── country_germany_and_b.png
+│   │   ├── day2_results.png
+│   │   ├── or_query_germany_mexico.jpg
+│   │   ├── order_by_query_customer_name.jpg
+│   │   ├── select_from_customerName_city.jpg
+│   │   ├── test_image.png
+│   │   ├── top5_sorted_by_country.jpg
+│   │   ├── upload_screemshots.jpg
+│   │   ├── upload_screenshots.sh.jpg
+│   │   ├── where_not_query_mexico_germany.jpg
+│   ├── tree_sql_notes.txt
+├── src
+│   ├── Basics
+│   │   ├── .gitkeep
+│   │   ├── BasicsREADME.md
+│   │   ├── area_of_rectangle.py
+│   │   ├── calculation.py
+│   │   ├── data_type.py
+│   │   ├── divisibility_check.py
+│   │   ├── even_odd_using_list.py
+│   │   ├── input_function.py
+│   │   ├── lotsofram.py
+│   │   ├── name_age.py
+│   │   ├── pos_neg_zero.py
+│   │   ├── prime_composite.py
+│   │   ├── prime_number.py
+│   │   ├── square_1to30.py
+│   │   ├── table_of_2.py
+│   ├── Control_Flow
+│   │   ├── .gitkeep
+│   │   ├── Control_FlowREADME.md
+│   │   ├── if_else_quiz.py
+│   │   ├── loops1.py
+│   ├── DataStructures
+│   │   ├── .gitkeep
+│   │   ├── DataStructureREADME.md
+│   │   ├── checking_for_existence_in_list.py
+│   │   ├── complete_list.py
+│   │   ├── copying_list.py
+│   │   ├── iterating_list.py
+│   │   ├── list_comprehension.py
+│   │   ├── list_exercises.py
+│   │   ├── lists.py
+│   │   ├── modifying_list.py
+│   │   ├── slicing_in_list.py
+│   ├── InputFunction
+│   │   ├── .gitkeep
+│   │   ├── admissionEligibility.py
+│   │   ├── input_function2.py
+│   │   ├── leapYear.py
+│   │   ├── usernamePassword.py
+│   ├── MiniProjects
+│   │   ├── .gitkeep
+│   │   ├── MiniProjectsREADME.md
+│   │   ├── basic_quiz_game.py
+│   │   ├── basic_quiz_game2.py
+│   │   ├── grading_system.py
+│   │   ├── guess_the_number.py
+│   │   ├── mini_dragon_game.py
+│   │   ├── student_grade_report.py
+│   ├── OtherConcepts
+│   │   ├── OtherConceptsREADME.md
+│   │   ├── arguments_and_comments.py
+│   │   ├── counting_1to10.py
+│   │   ├── finding_element_index.py
+│   │   ├── using_f-string.py
+│   ├── Strings
+│   │   ├── StringsREADME.md
+│   │   ├── count_vowels.py
+│   │   ├── count_vowels_consonants.py
+│   │   ├── counting_elements.py
+│   │   ├── stringMethods.py
+│   │   ├── string_handling.py
+│   │   ├── username_password.py
+│   ├── Utilities
+│   │   ├── UtilitiesREADME.md
+│   │   ├── hello_github.py
+│   │   ├── repeat.py
+│   ├── dev_greeting.py
+│   ├── explaining_return.py
+│   ├── functions
+│   │   ├── FunctionsREADME.md
+│   │   ├── function_start.py
+│   │   ├── function_with_arguments.py
+│   │   ├── functions_easy.py
+│   │   ├── functions_easy_practice.py
+│   │   ├── welcome_function.py
+│   ├── input_function2.py
+├── tree_src.txt
+├── upload_screenshots
+├── vowels _consonants_specialcharacter.py
+├── workflow_summary.md
