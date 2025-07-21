@@ -1,0 +1,38 @@
+
+[
+  {
+    "id": "P001",
+    "name": "Laptop Pro",
+    "category": "Electronics",
+    "price": 1200.00,
+    "in_stock": true
+  },
+  {
+    "id": "P002",
+    "name": "Mechanical Keyboard",
+    "category": "Electronics",
+    "price": 95.50,
+    "in_stock": true
+  },
+  {
+    "id": "P003",
+    "name": "Wireless Mouse",
+    "category": "Electronics",
+    "price": 25.00,
+    "in_stock": false
+  },
+  {
+    "id": "P004",
+    "name": "Desk Chair Ergonomic",
+    "category": "Furniture",
+    "price": 350.00,
+    "in_stock": true
+  },
+  {
+    "id": "P005",
+    "name": "USB-C Hub",
+    "category": "Accessories",
+    "price": 40.00,
+    "in_stock": true
+  }
+]
