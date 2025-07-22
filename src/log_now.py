@@ -1,4 +1,4 @@
-fillename ="log_today.txt"
+filename ="log_today.txt"
 with open ("filename","w") as file:
 	file.write("This is first line.\n")
 	file.write("Learning file handling is fun.\n")
