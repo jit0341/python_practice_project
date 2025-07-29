@@ -1,0 +1,3 @@
+Hello from the magic backpack!
+This is so much safer because Python closes it automatically.
+No more forgetting to close!

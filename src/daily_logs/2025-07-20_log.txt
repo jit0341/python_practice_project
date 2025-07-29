@@ -1,0 +1,16 @@
+[21:29] Weldon.
+[21:29] 1. we put all lines into log_content variable.
+[21:29] 2. Created app_log.txt in write mode.
+[21:29] 2. Run f.write(content) and print ----file created successfully.
+[21:29] 3. All within try-except IOError as e.
+[21:29] These 3 steps saved in create_log.py and run.
+[21:29] 4. Made 3 variables for log entries, error entries and error lines.
+[21:29] 5. Within try-except FileNotFoundError. Opened our file in read mode.as log file.
+[21:29] 6. Used for line in log_file  reading file line by line.
+[21:29] 7. Used total_log_entries += 1 to increment the counter for every line read.
+[21:29] 8. Used if "ERROR" in line to check substring ("ERROR") exist.
+[21:29] 9. error_lines.append(line.strip()) to add error in error_lines list.
+[21:29] 10. try-except blocks... File not found error and IOError. Plus exit()
+[21:29] 11. With open error_report.txt in write mode.
+[21:29] Print(f"....")
+[21:29] 12. Save and run in separate file in same directory.
