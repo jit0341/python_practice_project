@@ -1,0 +1,50 @@
+# Prime checker from any mixed file (safe version)
+
+def is_prime(n):
+    if n < 2:
+        return False
+    for i in range(2, int(n**0.5)+1):
+        if n % i == 0:
+            return False
+    return True
+
+try:
+    with open('numbers.txt', 'r') as file:
+        for line in file:
+            line = line.strip()
+            if not line:
+                continue  # skip blank lines
+            try:
+                # Try to extract integer from line
+                num = int(line)
+                if is_prime(num):
+                    print(f"{num} is a prime number")
+                else:
+                    print(f"{num} is not a prime number")
+            except ValueError:
+                continue  # skip non-numeric lines safely
+
+except FileNotFoundError:
+    print("❌ File 'numbers.txt' not found.")
+
+
+# Prime checker
+def is_prime(n):
+    if n < 2:
+        return False
+    return True
+
+print("Check")
+
+17
+23
+49
+# Prime number checker test list
+17
+18
+19
+20
+21
+22
+23
+# The above are mixed
