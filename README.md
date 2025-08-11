@@ -59,7 +59,7 @@ python src/Basics/filename.py
 Project Contents / File Descriptions
 | Category | File Name (click to view) | Description |
 |---|---|---|
-| Math & Numbers | src/Basics/area_of_rectangle.py | Calculates the area of a rectangle |
+| Math & Numbers |  [src/Basics/area_of_rectangle.py](https://github.com/jit0341/python_practice_project/blob/main/src/Basics/area_of_rectangle.py) | Calculates the area of a rectangle  |
 |  | src/Basics/calculation.py | Performs basic arithmetic operations |
 |  | src/Basics/counting_1to10.py | Counts numbers from 1 to 10 |
 |  | src/Basics/divisibility_check.py | Checks divisibility |
