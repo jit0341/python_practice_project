@@ -137,7 +137,7 @@ This repository is licensed under the MIT License.
 Author
 Jitendra Bharti — GitHub /jit0341
 
-<<<<<<< HEAD
+
 ---
 
 📜 Project Contents / File Descriptions
@@ -258,5 +258,4 @@ This project is licensed under the MIT License.
 Jitendra Bharti
 
 ---
-=======
->>>>>>> 224ff9bac5aecdf3e5eaaf936e557c0305b09de2
+
