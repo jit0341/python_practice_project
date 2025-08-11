@@ -42,158 +42,170 @@ The goal is to provide clear, runnable examples that illustrate how different Py
 
 ## Folder Structure
 
-Here's a high-level overview of how the project is organized:
-
-
+```plaintext
 .
 ├── .github/                 # GitHub Actions workflows (e.g., CI/CD)
 ├── src/                     # Main source code directory
 │   ├── Basics/              # Fundamental Python concepts
 │   ├── Control_Flow/        # Conditional statements and loops
-│   ├── DataStructures/      # Scripts demonstrating various data structures (lists, etc.)
-│   ├── InputFunction/       # Examples of handling user input
-│   ├── MiniProjects/        # Small, self-contained Python applications
-│   ├── OtherConcepts/       # Miscellaneous Python concepts (f-strings, arguments, comments)
+│   ├── DataStructures/      # List and other data structure operations
+│   ├── InputFunction/       # Scripts for handling user input
+│   ├── MiniProjects/        # Games and small applications
+│   ├── OtherConcepts/       # Miscellaneous Python concepts
 │   ├── Strings/             # String manipulation examples
 │   ├── Utilities/           # General utility scripts
-│   └── functions/           # Scripts focused on function definitions and usage
-├── screenshots/             # Directory for output screenshots
-├── LICENSE                  # Project license file
-└── README.md                # This README file
+│   └── functions/           # Function definitions and usage examples
+├── screenshots/             # Output screenshots
+├── LICENSE                  # License file
+└── README.md                # This file
+
 
 ---
 
-## Getting Started
+Getting Started
 
 To get a local copy up and running, follow these simple steps.
 
-### Prerequisites
+Prerequisites
 
-Make sure you have **Python 3** installed on your system.
-You can download the latest version from the official Python website: [python.org](https://www.python.org/downloads/)
+Make sure you have Python 3 installed on your system. You can download the latest version from python.org
 
-### Installation & Setup
+Installation & Setup
 
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/jit0341/python_practice_project.git](https://github.com/jit0341/python_practice_project.git)
-    ```
-2.  **Navigate to the project directory:**
-    ```bash
-    cd python_practice_project
-    ```
-3.  **Run any Python script:**
-    Replace `filename.py` with the name of the script you want to execute.
-    ```bash
-    python filename.py
-    ```
+1. Clone the repository:
 
----
+git clone https://github.com/jit0341/python_practice_project.git
 
-## Project Contents / File Descriptions
 
-This table provides a detailed overview of the scripts organized by category.
+2. Navigate to the project directory:
 
-| Category                      | File Name                                      | Description                                                                 |
-| :---------------------------- | :--------------------------------------------- | :-------------------------------------------------------------------------- |
-| **Math & Numbers** | `area_of_rectangle.py`                         | Calculates the area of a rectangle                                          |
-|                               | `calculation.py`                               | Performs basic arithmetic operations                                        |
-|                               | `counting_1to10.py`                            | Illustrates counting numbers from 1 to 10                                   |
-|                               | `divisibility_check.py`                        | Checks if a number is divisible by another                                  |
-|                               | `even_odd_using_list.py`                       | Checks for even/odd numbers within a list                                   |
-|                               | `even_odd_with_f.py`                           | Demonstrates even/odd check using a function                                |
-|                               | `pos_neg_zero.py`                              | Classifies numbers as positive, negative, or zero                           |
-|                               | `prime_composite.py`                           | Checks if a number is prime or composite                                    |
-|                               | `prime_number.py`                              | Determines if a number is prime                                             |
-|                               | `square_1to30.py`                              | Generates squares for numbers from 1 to 30                                  |
-|                               | `table_of_2.py`                                | Displays the multiplication table of 2                                      |
-| **Games & Quizzes** | `basic_quiz_game.py`                           | A simple interactive quiz game                                              |
-|                               | `basic_quiz_game2.py`                          | An enhanced version of the basic quiz game                                  |
-|                               | `guess_number_3attempts.py`                    | Number guessing game with 3 attempts limit                                  |
-|                               | `guess_the_number.py`                          | Classic number guessing game                                                |
-|                               | `if_else_quiz.py`                              | A quiz based on `if-else` logic                                             |
-|                               | `mini_dragon_game.py`                          | A text-based fantasy adventure game                                         |
-|                               | `python_quiz_game.py`                          | A general Python knowledge quiz game                                        |
-| **User Interaction & Logic** | `admissionEligibility.py`                      | Checks eligibility for admission based on criteria                          |
-|                               | `age_group.py`                                 | Classifies individuals into age groups                                      |
-|                               | `data_type.py`                                 | Illustrates various Python data types                                       |
-|                               | `grading_system.py`                            | Assigns grades based on scores                                              |
-|                               | `input_function.py`                            | Basic examples of `input()` function usage                                  |
-|                               | `input_function2.py`                           | Further examples of `input()` function                                      |
-|                               | `leapYear.py`                                  | Determines if a given year is a leap year                                   |
-|                               | `name_age.py`                                  | Simple script to input and display name and age                             |
-|                               | `repeat.py`                                    | Demonstrates basic repetition                                               |
-|                               | `student_grade_report.py`                      | Summarizes student grades and performance                                   |
-|                               | `usernamePassword.py`                          | Simple login system (also `username_password.py` in Strings)                |
-|                               | `using_f-string.py`                            | Demonstrates the use of f-strings for string formatting                     |
-| **List Operations** | `checking_for_existence_in_list.py`            | Checks for element existence within a list                                  |
-|                               | `complete_list.py`                             | Comprehensive examples of various list operations                           |
-|                               | `copying_list.py`                              | Demonstrates different methods to copy lists                                |
-|                               | `counting_elements.py`                         | Counts occurrences of elements in a list/string                             |
-|                               | `finding_element_index.py`                     | Finds the index of a specific element                                       |
-|                               | `iterating_list.py`                            | Shows how to loop through list elements                                     |
-|                               | `list_comprehension.py`                        | Examples of list comprehension for concise code                             |
-|                               | `list_exercises.py`                            | Practice exercises for list manipulation                                    |
-|                               | `lists.py`                                     | Basic introduction to lists                                                 |
-|                               | `modifying_list.py`                            | Examples of how to modify list elements                                     |
-|                               | `slicing_in_list.py`                           | Demonstrates list slicing                                                   |
-| **String & Vowel Programs** | `count_vowels.py`                              | Counts the number of vowels in a string                                     |
-|                               | `count_vowels_consonants.py`                   | Counts both vowels and consonants in a string                               |
-|                               | `stringMethods.py`                             | Examples of common string methods                                           |
-|                               | `string_handling.py`                           | General string manipulation examples                                        |
-|                               | `vowels_consonants_specialcharacter.py`        | Counts vowels, consonants, and special characters                           |
-| **Functions** | `function_start.py`                            | Introduction to defining and calling functions                              |
-|                               | `function_with_arguments.py`                   | Functions demonstrating parameter passing                                   |
-|                               | `functions_easy.py`                            | Simple function examples                                                    |
-|                               | `functions_easy_practice.py`                   | More practice with basic functions                                          |
-|                               | `explaining_return.py`                         | Explains the `return` statement in functions                                |
-|                               | `welcome_function.py`                          | A basic welcome message function                                            |
-| **Other** | `arguments_and_comments.py`                    | Demonstrates command-line arguments and code comments                       |
-|                               | `dev_greeting.py`                              | A simple developer greeting script                                          |
-|                               | `hello_github.py`                              | A basic "Hello GitHub" script                                               |
-|                               | `lotsofram.py`                                 | No description yet                                                          |
+cd python_practice_project
+
+
+3. Run any Python script:
+
+python src/Basics/filename.py
+
+
+
 
 ---
 
-## Sample Output Screenshots
+Project Contents / File Descriptions
 
-You can find visual examples of some program outputs in the `screenshots/` directory.
+Category	File Name (click to view)	Description
 
-![Sample Output](screenshots/sample_output_placeholder.png) ---
+Math & Numbers	src/Basics/area_of_rectangle.py	Calculates the area of a rectangle
+	src/Basics/calculation.py	Performs basic arithmetic operations
+	src/Basics/counting_1to10.py	Counts numbers from 1 to 10
+	src/Basics/divisibility_check.py	Checks if a number is divisible by another
+	src/Basics/even_odd_using_list.py	Checks for even/odd numbers in a list
+	src/Basics/even_odd_with_f.py	Even/odd check using a function
+	src/Basics/pos_neg_zero.py	Classifies numbers as positive, negative, or zero
+	src/Basics/prime_composite.py	Checks if a number is prime or composite
+	src/Basics/prime_number.py	Determines if a number is prime
+	src/Basics/square_1to30.py	Generates squares for numbers 1–30
+	src/Basics/table_of_2.py	Displays the multiplication table of 2
+Games & Quizzes	src/MiniProjects/basic_quiz_game.py	A simple interactive quiz
+	src/MiniProjects/basic_quiz_game2.py	Enhanced version of quiz game
+	src/MiniProjects/guess_number_3attempts.py	Number guessing with 3 attempts
+	src/MiniProjects/guess_the_number.py	Classic number guessing game
+	src/MiniProjects/if_else_quiz.py	Quiz based on if-else
+	src/MiniProjects/mini_dragon_game.py	Text-based adventure game
+	src/MiniProjects/python_quiz_game.py	Python knowledge quiz
+User Interaction & Logic	src/InputFunction/admissionEligibility.py	Checks admission eligibility
+	src/InputFunction/age_group.py	Classifies into age groups
+	src/OtherConcepts/data_type.py	Demonstrates data types
+	src/InputFunction/grading_system.py	Assigns grades
+	src/InputFunction/input_function.py	Basic input examples
+	src/InputFunction/input_function2.py	More input examples
+	src/InputFunction/leapYear.py	Leap year checker
+	src/InputFunction/name_age.py	Inputs and displays name & age
+	src/OtherConcepts/repeat.py	Demonstrates repetition
+	src/InputFunction/student_grade_report.py	Summarizes grades
+	src/Strings/usernamePassword.py	Simple login system
+	src/OtherConcepts/using_f-string.py	Demonstrates f-strings
+List Operations	src/DataStructures/checking_for_existence_in_list.py	Checks element existence
+	src/DataStructures/complete_list.py	Various list operations
+	src/DataStructures/copying_list.py	Copies lists
+	src/DataStructures/counting_elements.py	Counts element occurrences
+	src/DataStructures/finding_element_index.py	Finds element index
+	src/DataStructures/iterating_list.py	Loops through lists
+	src/DataStructures/list_comprehension.py	List comprehension examples
+	src/DataStructures/list_exercises.py	List manipulation exercises
+	src/DataStructures/lists.py	Introduction to lists
+	src/DataStructures/modifying_list.py	Modifies list elements
+	src/DataStructures/slicing_in_list.py	List slicing
+String & Vowel Programs	src/Strings/count_vowels.py	Counts vowels
+	src/Strings/count_vowels_consonants.py	Counts vowels & consonants
+	src/Strings/stringMethods.py	String method examples
+	src/Strings/string_handling.py	String manipulation
+	src/Strings/vowels_consonants_specialcharacter.py	Counts vowels, consonants & special chars
+Functions	src/functions/function_start.py	Intro to functions
+	src/functions/function_with_arguments.py	Functions with parameters
+	src/functions/functions_easy.py	Simple functions
+	src/functions/functions_easy_practice.py	Function practice
+	src/functions/explaining_return.py	Explains return
+	src/functions/welcome_function.py	Welcome function
+Other	src/OtherConcepts/arguments_and_comments.py	Command-line args & comments
+	src/OtherConcepts/dev_greeting.py	Developer greeting
+	src/OtherConcepts/hello_github.py	Hello GitHub
+	src/OtherConcepts/lotsofram.py	(No description yet)
 
-## To Do
 
-Here's what's next on the roadmap for this project:
-
-* ✅ Add user input **validation** to relevant scripts.
-* ✅ Ensure **comments** are added to all scripts for better understanding.
-* ✅ **Refactor repeated code** using functions to promote reusability.
-* ✅ Add new scripts demonstrating the combined use of **loops and lists**.
-* ✅ Explore **file handling** concepts and implement saving program outputs.
-* ✅ Add **more screenshots** of program outputs to the `screenshots/` folder.
-* ✅ Add **clickable links** directly to individual scripts from this README. (This will be a bit more work, but very useful!)
 
 ---
 
-## Future Enhancements
+Sample Output Screenshots
 
-Exciting ideas for future development:
+Screenshots are stored in the /screenshots directory.
 
-* Integrate more **visual badges** (e.g., Python version, test status).
-* Automate **testing setup** for all scripts using a framework like `pytest`.
-* Expand existing games with more complex logic or a simple **graphical user interface (GUI)**.
-* Develop a **command-line interface (CLI)** for some utility scripts.
 
 ---
 
-## License
+To Do
 
-This project is licensed under the **MIT License**. See the `LICENSE` file for details.
+✅ Add input validation
+
+✅ Add comments to all scripts
+
+✅ Refactor repeated code
+
+✅ Add combined loops & lists examples
+
+✅ Explore file handling
+
+✅ Add screenshots
+
+✅ Add clickable links in README
+
+
 
 ---
 
-## Author
+Future Enhancements
 
-**Jitendra Bharti**
-[![GitHub Profile](https://img.shields.io/badge/GitHub-jit0341-blue?style=flat&logo=github)](https://github.com/jit0341)
+More badges (Python version, test status)
+
+Automated testing with pytest
+
+Expand games with GUI
+
+CLI for utility scripts
+
+
+
+---
+
+License
+
+This project is licensed under the MIT License. See LICENSE for details.
+
+
+---
+
+Author
+
+Jitendra Bharti
+
 
