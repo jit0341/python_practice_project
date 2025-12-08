@@ -1,0 +1,20 @@
+🗓️ Date: 2025-07-21
+📍 Location: ~/python_practice_project/src
+
+📝 Today’s Log:
+----------------------------------------------
+[06:54] Added JSON files to Python project and executed successfully.
+[06:56] products.json: Created and verified source JSON data.
+[06:56] create_products_json.py: Wrote helper script to create/populate products.json.
+[06:56] json_processor.py: Main script demonstrating:
+       - Reading JSON to Dictionary (json.load)
+       - Processing data (average, out-of-stock items)
+       - Converting Dictionary back to JSON (json.dump)
+[06:57] Saved processed data into out_of_stock_products.json
+
+💡 Takeaway:
+- JSON is not a language, but a structured data format.
+- No need for separate JSON study — learn via use in real projects.
+- CSV is next, but can be learned later as needed.
+
+✅ Routine maintained. Ready for next step.

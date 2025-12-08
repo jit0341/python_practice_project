@@ -1,0 +1,25 @@
+[06:54] Added JSON files to python and executed.
+[06:56] products.json: The source JSON data file.
+[06:56] * create_products_json.py: A helper script to ensure the products.json file is correctly created and populated.
+[06:56] * json_processor.py: Your main script that demonstrates:
+[06:56] * Changing JSON to Dictionary (json.load() from products.json into products_data).
+[06:56] * Processing the Python products_data (calculating average, identifying out-of-stock items).
+[06:56] * Changing Dictionary to JSON (implicitly done by json.dump()).
+[06:56] * Saving as JSON File (creating out_of_stock_products.json).r all
+[07:19] 🗓️ Date: 2025-07-21
+[07:19] 📍 Location: ~/python_practice_project/src
+[07:19] 📝 Today’s Log:
+[07:19] ----------------------------------------------
+[07:19] [06:54] Added JSON files to Python project and executed successfully.
+[07:19] [06:56] products.json: Created and verified source JSON data.
+[07:19] [06:56] create_products_json.py: Wrote helper script to create/populate products.json.
+[07:19] [06:56] json_processor.py: Main script demonstrating:
+[07:19] - Reading JSON to Dictionary (json.load)
+[07:19] - Processing data (average, out-of-stock items)
+[07:19] - Converting Dictionary back to JSON (json.dump)
+[07:19] [06:57] Saved processed data into out_of_stock_products.json
+[07:19] 💡 Takeaway:
+[07:19] - JSON is not a language, but a structured data format.
+[07:19] - No need for separate JSON study — learn via use in real projects.
+[07:19] - CSV is next, but can be learned later as needed.
+[07:20] ✅ Routine maintained. Ready for next step.exit

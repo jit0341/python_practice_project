@@ -1,0 +1,5 @@
+[20:42] Typing work done.Did some coding.
+[20:58] 1.I made daily log file
+[20:59] 2. exit
+[23:53] bugs in daily_logs folder removed.
+[23:54] another daily_logs folder was created within daili_logs folder.

@@ -1,0 +1,2 @@
+New content overwrites old content.
+Appending more after reading.

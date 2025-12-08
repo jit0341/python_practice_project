@@ -1,0 +1,3 @@
+ERROR: Failed to connect to external API. Retrying...
+ERROR: Disk space low. Cannot write new data.
+ERROR: Unhandled exception occurred in module X.
