@@ -11,3 +11,12 @@ if nums[0] % 2 ==0:
 else:
     print("Odd")
 
+nums = [11,2,3,14]
+if nums[0] % 2 ==0:
+    print("Even")
+elif nums[3] % 2 ==0:
+    print("Even")
+else:
+    print("Odd")
+
+
