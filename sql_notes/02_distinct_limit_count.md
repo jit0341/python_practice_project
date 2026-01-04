@@ -36,9 +36,3 @@ Example:
 Sql
 SELECT TOP 5 * FROM Customers;
 
-# SQL Lesson 3: GROUP BY and HAVING
-
-Platform: W3Schools Try SQL  
-Table Used: Customers
-
-This lesson focuses on aggregating data and grouping results.
