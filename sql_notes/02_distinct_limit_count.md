@@ -18,3 +18,14 @@ Run:
 ```sql
 SELECT COUNT(DISTINCT Country)
 FROM Customers;
+## LIMIT vs TOP (Important Note)
+
+W3Schools Try SQL uses Microsoft SQL Server.
+
+- `LIMIT` works in MySQL / PostgreSQL
+- SQL Server uses `TOP`
+
+Example used here:
+
+```sql
+SELECT TOP 5 * FROM Customers;
