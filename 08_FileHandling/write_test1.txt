@@ -1,2 +1,0 @@
-Line 1: Hello from w mode
-Line 2: This file will be overwritten if run again.
