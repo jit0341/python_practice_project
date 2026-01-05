@@ -14,4 +14,4 @@ SELECT
 FROM Customers
 GROUP BY Country;
 
-![SQL REPORTING — STRUCTURED SHOWCASE](screenshots/country_count_report.png)
+![SQL Output — Country-wise Customer Count](screenshots/report_01_country_count.png)
