@@ -23,8 +23,6 @@ Business question:
 How many customers are there in each country?
 
 📁 File: report_01_country_count.md
-
-![SQL REPORTING — STRUCTURED SHOWCASE](screenshots/country_count_report.png)
 ---
 ### Business Value
 Helps identify strong and weak markets for regional planning.
