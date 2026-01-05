@@ -24,6 +24,7 @@ How many customers are there in each country?
 
 📁 File: report_01_country_count.md
 
+![SQL REPORTING — STRUCTURED SHOWCASE](screenshots/country_count_report.png)
 ---
 
 ### 2️⃣ Country-wise Total Sales
