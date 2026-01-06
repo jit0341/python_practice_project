@@ -5,7 +5,8 @@
 SELECT * FROM Customers;
 ```
 Purpose: View complete table data.
-📷 Screenshot: ![All Records](screenshots/01_select_all.png)
+📷 Screenshot:
+![All Records](screenshots/01_select_all.png)
 
 2. Filter using WHERE
 ```sql
