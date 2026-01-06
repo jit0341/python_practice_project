@@ -20,11 +20,14 @@ Result Preview
 ---
 ![Aggregated country-level summary](creenshots/screenshots/report_groupby_country_count.png)
 ---
-Business Value
+## Business Value
+
 Identifies strong and weak markets
 Helps in regional sales planning
 Useful for reporting and dashboards
-Deliverable
+
+## Deliverable
+
 Aggregated country-level summary
 Client-readable output
 Ready for Excel / CSV reporting
