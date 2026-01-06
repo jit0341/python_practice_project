@@ -17,9 +17,9 @@ ORDER BY COUNT(*) DESC;
 ```
 
 Result Preview
----
-![Aggregated country-level summary](creenshots/screenshots/report_groupby_country_count.png)
----
+
+![Aggregated country-level summary](screenshots/report_groupby_country_count.png)
+
 ## Business Value
 
 Identifies strong and weak markets
