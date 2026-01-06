@@ -14,4 +14,4 @@ SELECT
 FROM Customers
 GROUP BY Country;
 
-![SQL Output — Country-wise Customer Count](screenshots/report_01_country_count.png)
+![Country-wise Customer Count Result](../screenshots/report_01_country_count.png)
