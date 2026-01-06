@@ -1,6 +1,7 @@
 # Lesson 01 – SELECT, WHERE, ORDER BY
 
 ## 1. Select all records
+```sql
 SELECT * FROM Customers;
 ```
 Purpose: View complete table data.
