@@ -14,8 +14,7 @@ WHERE Country = 'Germany';
 ```
 Purpose: Filter rows based on condition.
 📷 Screenshot: 
-![Filter Using Where](screenshots/
-screenshots/01_where_germany.png)
+![Filter Using Where](screenshots/01_where_germany.png)
 3. AND condition with LIKE
 ```sql
 SELECT * FROM Customers
