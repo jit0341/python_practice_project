@@ -35,4 +35,6 @@ Example:
 
 Sql
 SELECT TOP 5 * FROM Customers;
-
+```
+## Result Preview
+![Combined Query Result](screenshots/combined.png)
