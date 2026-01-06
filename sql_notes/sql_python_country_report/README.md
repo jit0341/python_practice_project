@@ -47,7 +47,7 @@ sql_python_country_report/ ├── data/ │   └── customers.db ├─�
 ```bash
 cd scripts
 python generate_country_report.py
-
+```
 🖥️ Terminal Output Preview
 ![Terminal Output](screenshots/terminal_output.png)
 
@@ -55,7 +55,7 @@ python generate_country_report.py
 ![CSV Report](screenshots/csv_preview.png)
 
 📊 Charts Preview
-![Double Charts](screenahots/charts_preview.png)
+![Double Charts](screenshots/charts_preview.png)
 
 📦 Deliverables
 
