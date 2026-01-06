@@ -1,9 +1,11 @@
 # Lesson 01 – SELECT, WHERE, ORDER BY
 
 ## 1. Select all records
+```
 SELECT * FROM Customers;
+```
 Purpose: View complete table data.
-📷 Screenshot: screenshots/01_select_all.png
+📷 Screenshot: ![All Records](screenshots/01_select_all.png)
 2. Filter using WHERE
 SELECT * FROM Customers
 WHERE Country = 'Germany';
