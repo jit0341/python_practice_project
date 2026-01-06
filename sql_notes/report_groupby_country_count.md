@@ -1,6 +1,3 @@
-👉 Exact content copy-paste करें
-Copy code
-Md
 # 📊 SQL Report – Country-wise Customer Count
 
 ## Client Question
@@ -18,8 +15,10 @@ FROM Customers
 GROUP BY Country
 ORDER BY COUNT(*) DESC;
 ```
+---
 Result Preview
 ![Aggregated country-level summary](screenshots/screenshots/report_groupby_country_count.png)
+---
 Business Value
 Identifies strong and weak markets
 Helps in regional sales planning
