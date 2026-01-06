@@ -47,7 +47,7 @@ SELECT
 FROM Customers;
 
 
----
+
 
 TOP (SQL Server)
 
@@ -63,17 +63,17 @@ LIMIT → MySQL / PostgreSQL
 SELECT TOP 5 *
 FROM Customers;
 
+```
 
----
 
 Result Preview
 
 Representative outputs shown (queries executed individually in W3Schools).
 
-![Combined Query Result](./screenshots/combined.png)
+![Combined Query Result](screenshots/combined.png)
 
 
----
+
 
 Business Value
 
@@ -96,4 +96,3 @@ Client-readable results
 Ready for CSV / Excel / PDF reporting
 
 
----
