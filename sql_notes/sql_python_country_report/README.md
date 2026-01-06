@@ -58,9 +58,9 @@ python generate_country_report.py
 ![Double Charts](screenshots/charts_preview.png)
 
 📦 Deliverables
-`md
-📸 See execution screenshots:  
-👉 [screenshots.md](screenshots.md)
+```md
+📸 Execution & Output Proof  
+👉 [View Screenshots](screenshots.md)
 
 ✅ Terminal summary
 ✅ CSV report
