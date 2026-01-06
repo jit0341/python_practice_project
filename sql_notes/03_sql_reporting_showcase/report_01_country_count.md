@@ -12,5 +12,6 @@ SELECT
     COUNT(*) AS Total_Customers
 FROM Customers
 GROUP BY Country;
-'''
+---
+## Result Preview
 ![Country-wise Customer Count Result](../screenshots/report_01_country_count.png)
