@@ -18,8 +18,9 @@ FROM Customers
 GROUP BY Country
 ORDER BY COUNT(*) DESC;
 ```
-Result Preview
-![Aggregated country-level summary](screenshots/screenshots/report_groupby_country_count.png)
+## Result Preview
+
+![Country-wise Customer Count](screenshots/report_groupby_country_count.png)
 Business Value
 Identifies strong and weak markets
 Helps in regional sales planning
