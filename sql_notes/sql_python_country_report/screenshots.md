@@ -13,9 +13,11 @@ python generate_country_report.py
 
 📄 CSV Report Preview
 Generated file: reports/country_customer_report.csv
+```
 ![CSV Report](screenshots/csv_preview.png)
 📊 Charts Output
 Bar Chart — Customer Count Comparison
+```
 ![Double Charts](screenshots/charts_preview.png)
 Pie Chart — Market Share Distribution
 
