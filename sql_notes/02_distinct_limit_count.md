@@ -1,5 +1,3 @@
----
-
 # SQL Lesson 2: DISTINCT, COUNT, LIMIT, MIN, MAX
 
 **Platform:** W3Schools Try SQL  
