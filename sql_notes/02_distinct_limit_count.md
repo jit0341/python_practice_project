@@ -70,7 +70,7 @@ Result Preview
 
 Representative outputs shown (queries executed individually in W3Schools).
 
-![Combined Query Result](/screenshots/combined.png)
+![Combined Query Result](screenshots/combined.png)
 
 
 ---
@@ -96,4 +96,4 @@ Client-readable results
 Ready for CSV / Excel / PDF reporting
 
 
----
+- में बदलना
