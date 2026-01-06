@@ -12,7 +12,7 @@ SELECT
     COUNT(*) AS Total_Customers
 FROM Customers
 GROUP BY Country;
-
+'''
 
 ---
 ## Result Preview
