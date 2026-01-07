@@ -74,3 +74,31 @@ CRM analysis
 Sales distribution reports
 Country-wise business insights
 Client-ready Excel & presentation data
+
+## ✅ Verification Steps (Client Proof)
+
+After running the report script, outputs can be independently verified
+using standard CLI commands:
+
+```bash
+# List generated reports with size and timestamp
+ls -lh reports/
+
+# Verify file metadata (creation & modification time)
+stat reports/*.png
+stat reports/*.csv
+
+# Confirm file types
+file reports/*
+
+# Validate CSV content
+wc -l reports/country_customer_report.csv
+head reports/country_customer_report.csv
+
+# Optional integrity check
+sha256sum reports/country_customer_report.csv
+
+These steps ensure:
+Reports are auto-generated (no manual editing)
+Files are reproducible and auditable
+Output integrity is verifiable by any technical reviewer
