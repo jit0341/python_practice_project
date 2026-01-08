@@ -19,6 +19,7 @@ Pie Chart — Market Share Distribution
 ### customers.db
 
 ### Orders Table Created
+```
 ![Orders Table](screenshots/01_orders_table_created.png)
 
 ### Orders Data Inserted
