@@ -1,4 +1,6 @@
 ## Understand final_automation_brevo_smtp.py
+> This document explains the internal working of the automation script.
+> Intended for learning, debugging, and client explanation.
 
 ## OVERALL FLOW (पहले दिमाग में map बना लें)
 
