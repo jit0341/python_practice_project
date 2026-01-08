@@ -328,6 +328,10 @@ Port 587 = TLS
 
 server.starttls()
 
+⚠️ Note:
+SMTP "Email sent successfully" means Brevo accepted the request.
+Actual inbox delivery depends on spam rules, DMARC, and sender reputation.
+
 👉 Encryption start
 (Security mandatory)
 
@@ -369,7 +373,10 @@ print("\n✅ Email sent successfully via Brevo SMTP")
 send_email(csv_path)
 
 👉 Pipeline complete: DB → Report → CSV → Email
+## How to Run
 
+export BREVO_SMTP_KEY=your_key_here
+python scripts/final_automation_brevo_smtp.py
 
 ---
 
