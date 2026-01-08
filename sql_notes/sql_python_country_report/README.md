@@ -1,104 +1,203 @@
-# 📊 Country-wise Customer Analytics Report (SQL + Python)
+📊 Automated Customer Country Report (SQL + Python)
 
-This project demonstrates a complete, client-ready data reporting workflow
-using **SQL, Python, and SQLite**.
+📌 Project Overview
 
-The goal is not just to write queries,
-but to convert raw database data into **usable business reports**.
+This project automatically generates a customer distribution report by country from a relational database using SQL + Python, exports the results as a CSV, displays a formatted table in the terminal, and optionally sends the report via email.
 
----
+This repository is designed as a learning + portfolio project, demonstrating real-world data automation workflows rather than production-scale email infrastructure.
 
-## 🎯 Client Question
-
-> How many customers are there in each country, and how is the market distributed?
 
 ---
 
-## 🧠 Solution Overview
+🧠 Problem Statement
 
-This automation performs:
+Clients often need periodic summary reports (daily/weekly/monthly) from their databases, such as:
 
-- SQL aggregation (GROUP BY + COUNT)
-- Clean tabular terminal output
-- CSV export (Excel / Google Sheets ready)
-- Visual analytics (Bar chart + Pie chart)
-- Timestamped execution for audit clarity
+Customer distribution by country
 
----
+Sales count by region
 
-## 🛠️ Tech Stack
+User analytics summaries
 
-- SQLite (Database)
-- SQL (Aggregation & reporting)
-- Python
-  - pandas
-  - matplotlib
-  - tabulate
+
+Manual extraction is error-prone and time-consuming. This project solves that by automating the full pipeline.
+
 
 ---
 
-## 📁 Project Structure
-sql_python_country_report/ ├── data/ │   └── customers.db ├── reports/ │   ├── country_customer_report.csv │   ├── customer_distribution.png │   └── customer_multiple_charts.png ├── scripts/ │   ├── generate_report.py │   └── generate_country_report.py └── README.md
+🏗 Architecture Overview
+
+SQLite / PostgreSQL
+        ↓ (SQL Query)
+     Python Script
+        ↓
+Formatted Terminal Table (tabulate)
+        ↓
+   CSV Report Export
+        ↓
+ Optional Email Delivery (SMTP)
+
 
 ---
 
-## ▶️ How to Run
+🧩 Features
 
-```bash
-cd scripts
-python generate_country_report.py
-```
-🖥️ Terminal Output Preview
-![Terminal Output](screenshots/terminal_output.png)
+✅ SQL aggregation using GROUP BY
 
-📄 CSV Report Preview
-![CSV Report](screenshots/csv_preview.png)
+✅ Clean terminal report with colored output
 
-📊 Charts Preview
-![Double Charts](screenshots/charts_preview.png)
+✅ CSV export for Excel / Google Sheets
 
-📦 Deliverables
-```md
-📸 Execution & Output Proof  
-👉 [View Screenshots](screenshots.md)
+✅ Email automation with attachment (optional)
 
-✅ Terminal summary
-✅ CSV report
-✅ Bar chart (comparison)
-✅ Pie chart (market share)
+✅ Environment-variable–based secret handling
 
-💼 Freelance Use Case
 
-This type of report is commonly used for:
-CRM analysis
-Sales distribution reports
-Country-wise business insights
-Client-ready Excel & presentation data
 
-## ✅ Verification Steps (Client Proof)
+---
 
-After running the report script, outputs can be independently verified
-using standard CLI commands:
+🛠 Tech Stack
 
-```bash
-# List generated reports with size and timestamp
-ls -lh reports/
+Database: SQLite (current) / PostgreSQL (planned)
 
-# Verify file metadata (creation & modification time)
-stat reports/*.png
-stat reports/*.csv
+Language: Python 3
 
-# Confirm file types
-file reports/*
+Libraries:
 
-# Validate CSV content
-wc -l reports/country_customer_report.csv
-head reports/country_customer_report.csv
+sqlite3
 
-# Optional integrity check
-sha256sum reports/country_customer_report.csv
+pandas
 
-These steps ensure:
-Reports are auto-generated (no manual editing)
-Files are reproducible and auditable
-Output integrity is verifiable by any technical reviewer
+tabulate
+
+smtplib
+
+email.message
+
+
+
+
+---
+
+📂 Project Structure
+
+sql_python_country_report/
+│
+├── data/
+│   └── customers.db
+│
+├── reports/
+│   └── country_customer_report.csv
+│
+├── scripts/
+│   └── final_automation_brevo_smtp.py
+│
+└── README.md
+
+
+---
+
+▶️ How It Works
+
+Step 1: SQL Query
+
+The script runs the following query:
+
+SELECT
+    Country,
+    COUNT(*) AS Total_Customers
+FROM Customers
+GROUP BY Country
+ORDER BY Total_Customers DESC;
+
+
+---
+
+Step 2: Terminal Display
+
+Results are displayed in a clean grid format using tabulate, with color highlighting for readability.
+
+
+---
+
+Step 3: CSV Export
+
+The result set is exported as:
+
+reports/country_customer_report.csv
+
+This file can be directly opened in Excel or Google Sheets.
+
+
+---
+
+Step 4: Email Automation (Optional)
+
+If SMTP credentials are configured via environment variables, the CSV report is emailed automatically as an attachment.
+
+export BREVO_SMTP_KEY="<your_smtp_key>"
+python scripts/final_automation_brevo_smtp.py
+
+
+---
+
+⚠️ Important Notes (Client Transparency)
+
+This project uses freemail domains (Gmail/Outlook) for demonstration.
+
+Freemail domains often fail DMARC / SPF checks in production email systems.
+
+Email delivery may be inconsistent without a custom domain.
+
+
+> 📌 This is expected behavior and not a code defect.
+
+
+
+
+---
+
+✅ What This Project Demonstrates
+
+Real-world SQL reporting logic
+
+Python automation skills
+
+Clean separation of logic (query → report → delivery)
+
+Secure handling of secrets via environment variables
+
+Awareness of production constraints
+
+
+
+---
+
+🚀 Future Enhancements
+
+PostgreSQL support (planned)
+
+Scheduler integration (cron / Airflow)
+
+Email ON/OFF config flag
+
+HTML email templates
+
+Cloud deployment
+
+
+
+---
+
+👤 Author
+
+Jitendra Bharti
+Python | SQL | Automation Enthusiast
+
+
+---
+
+📄 License
+
+This project is open for learning and portfolio demonstration purposes.
+
